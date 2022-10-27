@@ -1,0 +1,71 @@
+body {
+    background-color: ivory;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace ;
+    font-style: italic;
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+table {
+    margin: 0 auto;
+    border: 1.5px solid navy;
+    border-radius: 10px;
+
+
+}
+
+h1 {
+    display: block;
+    font-size: x-large;
+    padding: 30px 50px ;
+    text-align: center;
+    text-transform: uppercase;
+    color: navy;
+    font-weight: 600;
+    
+}
+
+h2 {
+    display: block;
+    font-size: large;
+    text-align: center;
+    padding: 25px  ;
+}
+
+th {
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: navy;
+    color: white;
+
+}
+
+footer{
+    background-color: navy;
+    opacity: 0.5;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: small;
+}
+
+.col1, .col2, .col3 {
+    width: 100px;
+}
+
+.col4 {
+    width: 400px;
+}
+
+th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
