@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS cheatsheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <h1>CSS Selector Basics</h1>
+    
+    <h2>Simple selectors</h2>
+    
+    <!-- Table of simple selectors--> 
+
+    <table>
+         <thead>
+            <tr>
+               <th class="col1">Syntax</th>
+               <th class="col2">Name</th>
+               <th class="col3">Example</th>
+               <th class="col4">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>*</td>
+                <td>Universal selector</td>
+                <td> <span class="code">*</span></td>
+                <td>will match all the elements of the document</td>
+                
+            </tr>
+            <tr>
+                <td>elementname</td>
+                <td>Type selector</td>
+                <td><span class="code">h2</span></td>
+                <td>will match any <span class="code">h2</span> element </td>
+            </tr>
+            <tr>
+                <td>.classname</td>
+                <td>Class selector</td>
+                <td><span class="code"></span>.firstname</span></td>
+                <td>will match the element that has <span class="code">class="firstname"</span></td>
+            </tr>
+            <tr>
+                <td>#idname</td>
+                <td>ID selector</td>
+                <td><span class="code">#nickname</span></td>
+                <td>will match the element that has <span class="code">id="nickname"</span></td>
+            </tr>
+            <tr>
+                <td>A,B</td>
+                <td>Selector list</td>
+                <td><span class="code">div, span</span></td>
+                <td>will match all <span class="code">div</span> and all <span class="code">span</span> elements</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Table of combitator selectors--> 
+    <h2>Combinator selectors</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="col1">Syntax</th>
+                <th class="col2">Name</th>
+                <th class="col3">Example</th>
+                <th class="col4">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A B</td>
+                <td>Descendant selector</td>
+                <td><span class="code">div span</span></td>
+                <td>will match all <span class="code">span</span>  elements that are inside a <span class="code">div</span> element</td>
+            
+            </tr>
+
+            <tr>
+                <td>A > B</td>
+                <td>Child selector</td>
+                <td><span class="code">ul > li </span></td>
+                <td>will match all <span class="code">li</span> elements that are nested directly inside a <span class="code">ul</span> element </td>
+            </tr>
+            <tr>
+                <td>A ~ B</td>
+                <td>General sibling selector</td>
+                <td><span class="code">p ~ span</span> </td>
+                <td>will match all <span class="code">span</span> elements that follow a <span class="code">p</span>, immediately or not</td>
+            </tr>
+            <tr>
+                <td>A + B</td>
+                <td>adjacent sibling selector</td>
+                <td><span class="code">h2 + p</span> </td>
+                <td>will match the first <span class="code">p</span> element that immediately follows an <span class="code">h2</span> element</td>
+            </tr>
+        
+        </tbody>
+
+
+    </table>
+
+    <footer>
+        <p>2022 OCT</p>
+    </footer>
+</body>
+</html>
